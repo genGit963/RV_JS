@@ -1,0 +1,4 @@
+ - Data Types
+      - Primitive types: strings, numbers, booleans, null, undefined, and symbol
+      - Reference types: objects and arrays
+      - Type coercion and type checking (`typeof`, `instanceof`)
