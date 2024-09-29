@@ -39,3 +39,18 @@ When it's used:
 let person = null; // No object or value is assigned here
 console.log(person); // null
 console.log("This is " + null + " " + undefined);
+
+// 3. symbol
+/*
+Definition: 
+    A unique and immutable value that is often used 
+    as an identifier for object properties. 
+    Every symbol is unique.
+
+Syntax: 
+    Symbols are created using the Symbol() function
+    
+*/
+let sym1 = Symbol("description");
+let sym2 = Symbol("description");
+console.log(sym1 === sym2); // false, because every Symbol is unique
