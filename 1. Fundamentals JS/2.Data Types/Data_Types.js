@@ -53,4 +53,4 @@ Syntax:
 */
 let sym1 = Symbol("description");
 let sym2 = Symbol("description");
-console.log(sym1 === sym2); // false, because every Symbol is unique
+console.log("sym1 ==== sym2 : ", sym1 === sym2); // false, because every Symbol is unique
