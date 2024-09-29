@@ -34,10 +34,12 @@ var
 */
 console.log("---------------- var --------------");
 console.log("a: ", a); // undefined
+
 var a = 5; // Declaration and initialization
 console.log("a: ", a); // 5
 var a = 99;
 console.log("redeclared: ", a); // 99
+
 if (true) {
   var a = 10; // Re-declaration allowed
   console.log(a); // 10
@@ -70,7 +72,12 @@ console.log(a); // 10 (because `var` is function-scoped or global-scoped)
 
 console.log("---------------- let --------------");
 // console.log(b); // ReferenceError: Cannot access 'b' before initialization
-let b = 5;
+
+var a = 5; // Declaration and initialization
+console.log("a: ", a); // 5
+var a = 99;
+console.log("redeclared: ", a); // 99
+let b = 10;
 console.log(b); // 5
 if (true) {
   let b = 10; // Creates a new block-scoped `b`
