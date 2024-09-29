@@ -38,4 +38,4 @@ When it's used:
 */
 let person = null; // No object or value is assigned here
 console.log(person); // null
-console.log("this is" + null + undefined);
+console.log("This is " + null + " " + undefined);
