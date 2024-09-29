@@ -112,3 +112,11 @@ console.log(set); // Set {1, 2, 3, 4} - only unique values
 function foo() {}
 foo.description = "This is a function";
 console.log(foo.description); // "This is a function"
+
+// Buffers
+/*
+A Buffer object in Node.js is used to handle 
+binary data (data streams like files or network operations).
+*/
+let buf = Buffer.from("Hello");
+console.log(buf); // <Buffer 48 65 6c 6c 6f>
