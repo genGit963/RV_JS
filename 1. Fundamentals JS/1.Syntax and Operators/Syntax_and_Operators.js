@@ -35,7 +35,7 @@ var
 console.log("---------------- var --------------");
 console.log("a: ", a); // undefined
 var a = 5; // Declaration and initialization
-console.log(a); // 5
+console.log("a: ", a); // 5
 var a = 99;
 console.log("redeclared: ", a); // 99
 if (true) {
