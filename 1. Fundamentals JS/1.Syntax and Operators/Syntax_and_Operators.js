@@ -72,11 +72,6 @@ console.log(a); // 10 (because `var` is function-scoped or global-scoped)
 
 console.log("---------------- let --------------");
 // console.log(b); // ReferenceError: Cannot access 'b' before initialization
-
-var a = 5; // Declaration and initialization
-console.log("a: ", a); // 5
-var a = 99;
-console.log("redeclared: ", a); // 99
 let b = 10;
 console.log(b); // 5
 if (true) {
