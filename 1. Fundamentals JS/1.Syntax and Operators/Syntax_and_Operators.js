@@ -36,6 +36,7 @@ console.log("---------------- var --------------");
 console.log(a); // undefined
 var a = 5; // Declaration and initialization
 console.log(a); // 5
+var a = 10;
 if (true) {
   var a = 10; // Re-declaration allowed
   console.log(a); // 10
