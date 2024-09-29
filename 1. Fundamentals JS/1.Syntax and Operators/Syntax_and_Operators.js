@@ -95,6 +95,8 @@ console.log(b); // 5 (original `b` outside the block)
     providing a clear indication that the variable 
     should remain constant throughout the program.
 */
+
+console.log("---------------- const --------------");
 const c = 5;
 console.log(c); // 5
 // c = 10; // Error: Assignment to constant variable.
