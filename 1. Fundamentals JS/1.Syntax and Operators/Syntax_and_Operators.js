@@ -75,3 +75,19 @@ if (true) {
   console.log(b); // 10
 }
 console.log(b); // 5 (original `b` outside the block)
+
+// const
+/*
+
+1. Scope: 
+    Like let, const is also block-scoped.
+
+2. Hoisting: 
+    const is hoisted but not initialized. 
+    Trying to use it before declaration will cause a ReferenceError.
+
+3. Reassignable: 
+    You cannot reassign a const variable. 
+    It must be initialized at the time of declaration.
+Best Use: Use const when you don’t want the variable to be reassigned, providing a clear indication that the variable should remain constant throughout the program.
+*/
