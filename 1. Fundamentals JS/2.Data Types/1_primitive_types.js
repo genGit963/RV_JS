@@ -9,7 +9,6 @@
 // Primitive
 
 // 1. undefined
-
 /*
 Definition:
     undefined means a variable has been declared but has not yet been assigned a value.
@@ -49,8 +48,12 @@ Definition:
 
 Syntax: 
     Symbols are created using the Symbol() function
-    
+
+Use case: 
+    Symbols are useful for creating unique property
+    keys in objects to avoid name collisions,
+    especially when extending or using third-party code.    
 */
 let sym1 = Symbol("description");
 let sym2 = Symbol("description");
-console.log("sym1 ==== sym2 : ", sym1 === sym2); // false, because every Symbol is unique
+console.log("sym1 === sym2 : ", sym1 === sym2); // false, because every Symbol is unique
