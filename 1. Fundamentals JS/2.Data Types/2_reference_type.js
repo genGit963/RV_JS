@@ -72,3 +72,43 @@ let a = [1, 2, 3];
 let b = a; // b now refers to the same array as a
 b.push(4); // Adding a value to array b
 console.log(a); // [1, 2, 3, 4] - Both a and b are affected!
+
+//------------------- other reference types -------------------
+/*
+1. Functions: Blocks of reusable code.
+2. Dates: Work with time and dates.
+3. RegExp: Pattern matching in strings.
+4. Maps and WeakMaps: Key-value collections (with any type of key).
+5. Sets and WeakSets: Collections of unique values (with garbage collection in WeakSets).
+6. Buffers (Node.js): Binary data handling.
+7. Functions as Objects.
+*/
+// 1. Functions: Blocks of reusable code.
+function greet() {
+  return "Hello!";
+}
+let sayHello = greet;
+console.log(sayHello()); // "Hello!"
+
+// 2. Dates: Work with time and dates.
+const date = new Date();
+console.log(date);
+
+// 3. RegExp
+let pattern = /hello/;
+let text = "hello world";
+console.log(pattern.test(text)); // true
+
+// Maps
+let map = new Map();
+map.set("name", "John");
+console.log(map.get("name")); // "John"
+
+// Sets
+let set = new Set([1, 2, 3, 4, 4]);
+console.log(set); // Set {1, 2, 3, 4} - only unique values
+
+// Functions as object
+function foo() {}
+foo.description = "This is a function";
+console.log(foo.description); // "This is a function"
