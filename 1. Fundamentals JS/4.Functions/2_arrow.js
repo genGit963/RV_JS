@@ -89,14 +89,14 @@ obj.arrowFunction(); // Undefined or error
     Arrow functions simplify this by preserving the 'this' from the outer scope.
  */
 
-// function Person() {
-//   this.age = 0;
+function Person() {
+  this.age = 0;
 
-//   setInterval(function () {
-//     this.age++; // Error: 'this' is not the Person instance
-//   }, 1000);
-// }
-// const person = new Person();
+  setInterval(function () {
+    this.age++; // Error: 'this' is not the Person instance
+  }, 1000);
+}
+const person = new Person();
 
 // To fix this without arrow functions, you'd need to assign "this" to a variable:
 function Person() {
@@ -107,3 +107,30 @@ function Person() {
     self.age++; // Correctly refers to the Person instance
   }, 1000);
 }
+
+// Key Characteristics of Arrow Functions
+/**
+1. No Own "this" Binding:
+    Arrow functions do not have their own "this"; 
+    they use the "this" value from the enclosing scope.
+
+2. Cannot Be Used as Constructors:
+    You cannot use new with arrow functions; 
+    they are not designed to be used as constructor functions.
+    
+3. No arguments Object:
+    Arrow functions do not have their own arguments object. 
+    If you need access to the arguments, use rest parameters (...args).
+
+    Example:
+        const func = (...args) => {
+            console.log(args);
+        };
+
+4.  No prototype Property:
+        Arrow functions do not have a prototype property.
+
+5. Cannot Use yield:
+        Arrow functions cannot be used as generators.
+
+ */
