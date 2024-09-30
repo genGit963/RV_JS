@@ -78,3 +78,32 @@ const obj = {
  */
 obj.regularFunction(); // 'Alice'
 obj.arrowFunction(); // Undefined or error
+
+// Why Is Lexical 'this' Useful?
+
+/**
+ * Simplifies Code in Certain Situations
+    When dealing with nested functions or callbacks, 
+    managing the value of 'this' can be tricky. 
+
+    Arrow functions simplify this by preserving the 'this' from the outer scope.
+ */
+
+// function Person() {
+//   this.age = 0;
+
+//   setInterval(function () {
+//     this.age++; // Error: 'this' is not the Person instance
+//   }, 1000);
+// }
+// const person = new Person();
+
+// To fix this without arrow functions, you'd need to assign "this" to a variable:
+function Person() {
+  const self = this;
+  self.age = 0;
+
+  setInterval(function () {
+    self.age++; // Correctly refers to the Person instance
+  }, 1000);
+}
