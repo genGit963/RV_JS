@@ -88,7 +88,6 @@ obj.arrowFunction(); // Undefined or error
 
     Arrow functions simplify this by preserving the 'this' from the outer scope.
  */
-
 function Person() {
   this.age = 0;
 
