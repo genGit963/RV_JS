@@ -22,30 +22,40 @@
     JavaScript moves the function declaration 
     to the top of the scope during the compile phase.
  */
-sayHello(); // Works due to hoisting
+sayHello(); // Works due to hoisting // output: Hello1
 function sayHello() {
   console.log("Hello!");
 }
 
 // reCalling and redeclaring works but last will be accepted
-sayHello();
+sayHello(); // output: Hello1
 function sayHello() {
   console.log("Hello1");
 }
 
-// 1. Function Declarations
+// 1.  Function Expression
 /**
- * Naming: 
-    Function declarations must have a name.
+ * Anonymous vs. Named:
+    Function expressions can be anonymous (no name) or named.
 
  * Syntax:
-    function functionName(parameters) {
+    const functionName = function(parameters) {
     // function body
     }
 
  * Hoisting: 
-    Function declarations are hoisted, 
-    meaning you can call the function before its declaration in the code. 
-    JavaScript moves the function declaration 
-    to the top of the scope during the compile phase.
+    Function expressions are not hoisted,
+    so the function cannot be called before it is assigned. 
+    
+    "JavaScript treats it as a variable", 
+    and it remains uninitialized until 
+    the code execution reaches that point.
  */
+
+// sayMom(); // Error: sayMom is not defined
+
+const sayMom = function () {
+  console.log("Mom");
+};
+
+sayMom();
