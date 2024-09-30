@@ -23,9 +23,14 @@
     to the top of the scope during the compile phase.
  */
 sayHello(); // Works due to hoisting
-
 function sayHello() {
   console.log("Hello!");
+}
+
+// reCalling and redeclaring works but last will be accepted
+sayHello();
+function sayHello() {
+  console.log("Hello1");
 }
 
 // 1. Function Declarations
@@ -44,8 +49,3 @@ function sayHello() {
     JavaScript moves the function declaration 
     to the top of the scope during the compile phase.
  */
-sayHello(); // Works due to hoisting
-
-function sayHello() {
-  console.log("Hello1");
-}
