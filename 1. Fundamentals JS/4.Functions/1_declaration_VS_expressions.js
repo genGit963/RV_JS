@@ -59,3 +59,13 @@ const sayMom = function () {
 };
 
 sayMom();
+
+// Anonymous vs. Named:
+
+const anonymousFunc = function () {
+  console.log("Anonymous function");
+};
+
+const namedFunc = function myFunc() {
+  console.log("Named function");
+};
