@@ -45,4 +45,7 @@ Syntax:
 const array = ["apple", "banana", "cherry"];
 for (let fruit of array) {
   console.log(fruit); // apple, banana, cherry
+  for (let letter of fruit) {
+    console.log(letter);
+  }
 }
