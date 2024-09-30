@@ -61,9 +61,20 @@ const obj = {
     console.log(this.name); // 'Alice'
   },
   arrowFunction: () => {
-    console.log(this.name); // Undefined or error
+    console.log("this.name: ", this.name); // Undefined or error
+    console.log("this: ", this);
   },
 };
+/**
+ * regularFunction: 
+        "this" refers to obj because it's called as a method.
 
+ * arrowFunction: 
+        "this" does not refer to obj because 
+        arrow functions do not have their own "this"; 
+
+        it uses the "this" from the outer scope 
+        (which could be the global object or undefined).
+ */
 obj.regularFunction(); // 'Alice'
 obj.arrowFunction(); // Undefined or error
