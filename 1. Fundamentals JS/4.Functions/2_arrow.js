@@ -14,7 +14,7 @@
     }; 
  */
 const add = (a, b) => a + b;
-console.log("add: ", add);
+console.log("add: ", add());
 
 /**
  * Understanding Lexical "this" Binding
