@@ -6,10 +6,11 @@
     They differ in syntax, behavior, and how they are hoisted.
  */
 
-// 1. Function Declarations
+// -------------------------- 1. Function Declarations --------------------------
 /**
- * Naming: 
+ * Naming and Anonymous: 
     Function declarations must have a name.
+    Function cannot be declared with name.
 
  * Syntax:
     function functionName(parameters) {
@@ -33,7 +34,7 @@ function sayHello() {
   console.log("Hello1");
 }
 
-// 1.  Function Expression
+// -------------------------- 2.  Function Expression --------------------------
 /**
  * Anonymous vs. Named:
     Function expressions can be anonymous (no name) or named.
