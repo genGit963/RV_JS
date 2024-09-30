@@ -47,5 +47,5 @@ function sayHello() {
 sayHello(); // Works due to hoisting
 
 function sayHello() {
-  console.log("Hello!");
+  console.log("Hello1");
 }
