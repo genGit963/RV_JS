@@ -70,5 +70,9 @@ const anonymousFunc = function () {
 const namedFunc = function myFunc() {
   console.log("Named function", this);
 };
+const namedFunction = () => {
+  console.log("arrow function", this);
+};
 // myFunc(); // try named function // ReferenceError: myFunc is not defined
 namedFunc();
+namedFunction();
