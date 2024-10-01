@@ -64,12 +64,14 @@ sayMom();
 // Anonymous vs. Named:
 
 const anonymousFunc = function () {
-  console.log("Anonymous function");
+  console.log("Anonymous function", this);
 };
 
 const namedFunc = function myFunc() {
   console.log("Named function", this);
 };
+
+// arrow function
 const namedFunction = () => {
   console.log("arrow function", this);
 };
