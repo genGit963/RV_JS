@@ -22,3 +22,18 @@ console.log(saySomething(greet, "Mahesh")); // Output: Hello, Mahesh!
 setTimeout(() => {
   console.log("This will run after 2 seconds\n");
 }, 2000);
+
+// 3. Returns Function
+function createMultiplier(multiplier) {
+  return function (number) {
+    return number * multiplier;
+  };
+}
+
+const double = createMultiplier(2);
+const triple = createMultiplier(3);
+
+console.log(createMultiplier(2)); // Output:
+console.log(createMultiplier(3)); // Output:
+console.log(double(5)); // Output: 10
+console.log(triple(5)); // Output: 15
