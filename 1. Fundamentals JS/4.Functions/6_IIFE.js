@@ -53,3 +53,11 @@
 })();
 
 console.log(typeof count); // 'undefined'
+
+// 3. Avoiding Hoisting Issues with IIFE
+var x = 10;
+
+(function () {
+  console.log(x); // undefined, because of hoisting
+  var x = 20;
+})();
