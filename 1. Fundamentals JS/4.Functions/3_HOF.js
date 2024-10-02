@@ -20,5 +20,5 @@ console.log(saySomething(greet, "Mahesh")); // Output: Hello, Mahesh!
 
 // 2. Using Callbacks
 setTimeout(() => {
-  console.log("This will run after 2 seconds");
+  console.log("This will run after 2 seconds\n");
 }, 2000);
