@@ -5,18 +5,20 @@ reference types:
 
     Unlike primitive types, 
     which hold simple values directly, 
-    reference types store pointers to objects in memory. 
+
+    reference types 
+        store pointers to objects in memory. 
     
     This means when you work with reference types, 
     you're not directly dealing with the value itself 
     but rather with a reference to it. 
-    Two common reference types are objects and arrays.
+    Two common reference types are "objects and arrays".
 */
 
-// Object
+// --------------------- Object ---------------------
 /*
 Definition: 
-    Objects are collections of key-value pairs. 
+    Objects are "collections of key-value pairs". 
 
     Each key (or property) in an object points to 
     a value, which could be anything 
@@ -41,10 +43,10 @@ console.log(person["age"]); // 30
 person.name = "heppy";
 console.log(person.name); // "John"
 
-// Arrays
+// --------------------- Arrays ---------------------
 /*
 Definition: 
-    Arrays are ordered collections of items (like a list).
+    Arrays are "ordered collections of items" (like a list).
     Each item in the array can be of any type, 
     and arrays are great for storing multiple related items together.
 
@@ -73,7 +75,7 @@ let b = a; // b now refers to the same array as a
 b.push(4); // Adding a value to array b
 console.log(a); // [1, 2, 3, 4] - Both a and b are affected!
 
-//------------------- other reference types -------------------
+//---------------------------------------- other reference types ----------------------------------------
 /*
 1. Functions: Blocks of reusable code.
 2. Dates: Work with time and dates.
@@ -83,37 +85,37 @@ console.log(a); // [1, 2, 3, 4] - Both a and b are affected!
 6. Buffers (Node.js): Binary data handling.
 7. Functions as Objects.
 */
-// 1. Functions: Blocks of reusable code.
+// --------------------- 1. Functions: Blocks of reusable code. ---------------------
 function greet() {
   return "Hello!";
 }
 let sayHello = greet;
 console.log(sayHello()); // "Hello!"
 
-// 2. Dates: Work with time and dates.
+// --------------------- 2. Dates: Work with time and dates.---------------------
 const date = new Date();
 console.log(date);
 
-// 3. RegExp
+// --------------------- 3. RegExp ---------------------
 let pattern = /hello/;
 let text = "hello world";
 console.log(pattern.test(text)); // true
 
-// Maps
+// --------------------- Maps ---------------------
 let map = new Map();
 map.set("name", "John");
 console.log(map.get("name")); // "John"
 
-// Sets
+// --------------------- Sets ---------------------
 let set = new Set([1, 2, 3, 4, 4]);
 console.log(set); // Set {1, 2, 3, 4} - only unique values
 
-// Functions as object
+// --------------------- Functions as object ---------------------
 function foo() {}
 foo.description = "This is a function";
 console.log(foo.description); // "This is a function"
 
-// Buffers
+// --------------------- Buffers ---------------------
 /*
 A Buffer object in Node.js is used to handle 
 binary data (data streams like files or network operations).

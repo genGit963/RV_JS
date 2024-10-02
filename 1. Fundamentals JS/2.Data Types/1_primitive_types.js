@@ -1,14 +1,19 @@
 /*
  - Data Types
-      - Primitive types: strings, numbers, booleans, null, undefined, and symbol
-      - Reference types: objects and arrays
-      - Type coercion and type checking (`typeof`, `instanceof`)
+      - Primitive types: 
+            1. strings  2. numbers  3. booleans  4. null  5. undefined  6. symbol
+
+      - Reference types: 
+            1. objects  2. arrays
+
+      - Type coercion and type checking 
+            1. typeof 2. instanceof
 
 */
 
 // Primitive
 
-// 1. undefined
+// 1. --------------------- undefined --------------------
 /*
 Definition:
     undefined means a variable has been declared but has not yet been assigned a value.
@@ -25,7 +30,7 @@ console.log(x); // undefined
 function greet() {}
 console.log(greet()); // undefined
 
-// 2. null
+// 2. --------------------- null ---------------------
 /*
 Definition:
     null represents the intentional absence of any object value. 
@@ -39,7 +44,7 @@ let person = null; // No object or value is assigned here
 console.log(person); // null
 console.log("This is " + null + " " + undefined);
 
-// 3. symbol
+// 3. --------------------- symbol ---------------------
 /*
 Definition: 
     A unique and immutable value that is often used 
@@ -56,4 +61,4 @@ Use case:
 */
 let sym1 = Symbol("description");
 let sym2 = Symbol("description");
-console.log("sym1 === sym2 : ", sym1 === sym2); // false, because every Symbol is unique
+console.log("sym1 === sym2 : ", sym1 === sym2, sym1, sym2); // false, because every Symbol is unique

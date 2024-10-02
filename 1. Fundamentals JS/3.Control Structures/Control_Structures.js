@@ -8,7 +8,7 @@ Control Structures
 // for ..... in
 /*
 Purpose: 
-    Iterates over the enumerable properties of an object 
+    Iterates over the "enumerable properties" of an object 
     (including inherited properties).
 
 Use Case: 
@@ -28,7 +28,7 @@ for (let key in person) {
 // for...of
 /*
 Purpose: 
-    Iterates over the values of iterable objects 
+    Iterates over the "values of iterable objects"
     like arrays, strings, maps, sets, etc.
 
 Use Case: 
@@ -41,7 +41,6 @@ Syntax:
     }
 
 */
-
 const array = ["apple", "banana", "cherry"];
 for (let fruit of array) {
   console.log(fruit); // apple, banana, cherry
