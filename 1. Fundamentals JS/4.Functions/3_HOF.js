@@ -25,7 +25,7 @@ setTimeout(() => {
 
 // 3. Returns Function
 function createMultiplier(multiplier) {
-  return function returnFunc(number) {
+  return function (number) {
     return number * multiplier;
   };
 }
@@ -37,3 +37,18 @@ console.log(createMultiplier(2)); // Output: [Function (anonymous)]
 console.log(createMultiplier(3)); // Output: [Function (anonymous)]
 console.log(double(5)); // Output: 10
 console.log(triple(5)); // Output: 15
+
+function createDivider(multiplier) {
+  return function Diveder(number) {
+    // named return function
+    return number / multiplier;
+  };
+}
+
+const firstDiv = createDivider(2);
+const secondDiv = createDivider(3);
+
+console.log(createDivider(2)); // Output: [Function (anonymous)]
+console.log(createDivider(3)); // Output: [Function (anonymous)]
+console.log(firstDiv(5)); // Output: 10
+console.log(secondDiv(5)); // Output: 15
