@@ -68,7 +68,7 @@ var x = 10;
  * IIFEs were widely used to simulate module-like behavior, 
     encapsulating functionality within private scopes.
  */
-const module = (function () {
+const privateModule = (function () {
   const privateVar = "I am private";
 
   return {
@@ -78,4 +78,4 @@ const module = (function () {
   };
 })();
 
-console.log(module.getPrivateVar()); // "I am private"
+console.log(privateModule.getPrivateVar()); // "I am private"
