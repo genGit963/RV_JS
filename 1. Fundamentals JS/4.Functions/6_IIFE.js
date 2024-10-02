@@ -38,3 +38,18 @@
 (function (name) {
   console.log("Hello, " + name + "!!");
 })("Mahesh");
+
+// 2. With IIFE (Encapsulating Variables)
+(function () {
+  let count = 0;
+
+  function increment() {
+    count++;
+    console.log(count);
+  }
+
+  increment(); // 1
+  increment(); // 2
+})();
+
+console.log(typeof count); // 'undefined'
