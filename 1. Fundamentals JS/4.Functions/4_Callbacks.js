@@ -19,3 +19,24 @@ function greet() {
 
 greet();
 console.log("End of script");
+
+/**
+ * Common Uses of Callbacks in Asynchronous Functions
+ * Event handling: Reacting to user inputs like clicks or key presses.
+ * File reading: Working with files, e.g., using the fs.readFile() function in Node.js.
+ * HTTP requests: Making network requests, like with XMLHttpRequest or fetch.
+ */
+
+// Example: Asynchronous HTTP Request (with Callback)
+function fetchData(callback) {
+  setTimeout(() => {
+    const data = { name: "Mahesh", age: 29 };
+    callback(data);
+  }, 3000); // Simulates a 3-second network delay
+}
+
+fetchData((data) => {
+  console.log("Data received:", data);
+});
+
+console.log("Fetching data...");
