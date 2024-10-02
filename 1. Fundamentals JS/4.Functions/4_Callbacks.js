@@ -40,3 +40,16 @@ fetchData((data) => {
 });
 
 console.log("Fetching data...");
+
+/**
+ * Callback Hell
+        When multiple asynchronous operations are nested, 
+        it can lead to complex and unreadable code, commonly known as callback hell.
+ */
+asyncOperation1(function (result1) {
+  asyncOperation2(result1, function (result2) {
+    asyncOperation3(result2, function (result3) {
+      // More nested callbacks...
+    });
+  });
+});
