@@ -38,6 +38,7 @@ console.log(createMultiplier(3)); // Output: [Function (anonymous)]
 console.log(double(5)); // Output: 10
 console.log(triple(5)); // Output: 15
 
+// Name Return Function
 function createDivider(multiplier) {
   return function Diveder(number) {
     // named return function
@@ -48,7 +49,7 @@ function createDivider(multiplier) {
 const firstDiv = createDivider(2);
 const secondDiv = createDivider(3);
 
-console.log(createDivider(2)); // Output: [Function (anonymous)]
-console.log(createDivider(3)); // Output: [Function (anonymous)]
+console.log(createDivider(2)); // Output: [Function: Diveder]
+console.log(createDivider(3)); // Output: [Function: Diveder]
 console.log(firstDiv(5)); // Output: 10
 console.log(secondDiv(5)); // Output: 15
