@@ -1,0 +1,25 @@
+
+1.  ------------------------ JavaScript Fundamentals ------------------------ 
+    - Syntax and Operators
+      - Understanding variable declarations: `var`, `let`, and `const`
+      - Arithmetic operators (`+`, `-`, `*`, `/`, `%`)
+      - Comparison operators (`==`, `===`, `!=`, `!==`, `<`, `>`)
+      - Logical operators (`&&`, `||`, `!`)
+
+    - Data Types
+      - Primitive types: strings, numbers, booleans, null, undefined, and symbol
+      - Reference types: objects and arrays
+      - Type coercion and type checking (`typeof`, `instanceof`)
+
+    - Control Structures
+      - Conditional statements: `if`, `else if`, `else`, `switch`
+      - Loops: `for`, `while`, `do...while`, `for...in`, `for...of`
+      - Using `break` and `continue` for flow control
+
+    - Functions
+      - Function declarations vs. expressions
+      - Arrow functions and their lexical `this` binding
+      - Higher-order functions: functions that take other functions as arguments or return them
+      - Callbacks and their role in asynchronous programming
+      - Closures: functions that capture the scope in which they were created
+      - IIFE

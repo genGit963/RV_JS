@@ -25,6 +25,7 @@ Here’s a more in-depth breakdown of topics related to JavaScript (JS) and Type
       - Higher-order functions: functions that take other functions as arguments or return them
       - Callbacks and their role in asynchronous programming
       - Closures: functions that capture the scope in which they were created
+      - IIFE
 
 2.  ------------------------ Advanced JavaScript Concepts ------------------------ 
     - Asynchronous JavaScript
