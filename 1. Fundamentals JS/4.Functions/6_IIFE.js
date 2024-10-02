@@ -6,11 +6,35 @@
  *  --> "defined and executed right after it is created".
  *
  *  It runs automatically without being explicitly called.
- *  This pattern is often used to create a local scope to
- *  protect variables from polluting the global scope.
+ *  This pattern is often used to
+ *  -> "create a local scope to protect variables from polluting the global scope".
  *
  */
-// 1. Syntax of IIFE
+//Syntax of IIFE
 (function () {
   // Code inside the IIFE
 })();
+
+/**
+ * The key parts:
+    (function() { ... }): This turns the function into a function expression.
+    () at the end immediately invokes the function.
+
+ * Why Use IIFE?
+    The primary reason to use an IIFE is to create a private scope. 
+    This helps avoid polluting the global namespace and allows for 
+    local variables that cannot be accessed outside the IIFE.
+
+        1. "Encapsulate code": Protect variables inside the function from being accessible globally.
+        2. "Avoid conflicts": Prevent naming conflicts between variables in different parts of a program.
+        3. "Execute code immediately": Run a function as soon as it is defined without needing to call it later.
+ */
+(function () {
+  const message = "Hello, Mahesh";
+  console.log(message);
+})();
+
+// 1. IIFE with Parameters
+(function (name) {
+  console.log("Hello, " + name + "!!");
+})("Mahesh");
