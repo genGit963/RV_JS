@@ -49,3 +49,37 @@ function thirdFunction() {
 }
 
 firstFunction();
+
+// Call Stack Visualization
+/*
+1. Call Stack Visualization:
+        firstFunction() is added.
+
+2. Stack: [firstFunction]
+        secondFunction() is called from firstFunction().
+
+3. Stack: [firstFunction, secondFunction]
+        thirdFunction() is called from secondFunction().
+
+4. Stack: [firstFunction, secondFunction, thirdFunction]
+        thirdFunction() completes and is removed.
+
+5. Stack: [firstFunction, secondFunction]
+        secondFunction() completes and is removed.
+
+6. Stack: [firstFunction]
+        firstFunction() completes and is removed.
+
+7. Stack: [] (Empty)
+ */
+
+// Stack Overflow
+// uncomment to check
+/* 
+function recurse() {
+    recurse(); // Keeps calling itself
+}
+
+recurse(); // Causes a stack overflow error
+
+*/
