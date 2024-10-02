@@ -61,3 +61,21 @@ var x = 10;
   console.log(x); // undefined, because of hoisting
   var x = 20;
 })();
+
+// 4. IIFE in JavaScript Modules
+/**
+ * Before modern JavaScript introduced ES6 modules (import/export), 
+ * IIFEs were widely used to simulate module-like behavior, 
+    encapsulating functionality within private scopes.
+ */
+const module = (function () {
+  const privateVar = "I am private";
+
+  return {
+    getPrivateVar: function () {
+      return privateVar;
+    },
+  };
+})();
+
+console.log(module.getPrivateVar()); // "I am private"
