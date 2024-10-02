@@ -48,7 +48,7 @@ function sayHello() {
     Function expressions are not hoisted,
     so the function cannot be called before it is assigned. 
     
-    "JavaScript treats it as a variable", 
+    -------> "JavaScript treats it as a variable", <-------
     and it remains uninitialized until 
     the code execution reaches that point.
  */
@@ -61,7 +61,8 @@ const sayMom = function () {
 
 sayMom();
 
-// Anonymous vs. Named:
+// --------------------- Anonymous vs. Named ---------------------
+// --------------------- this ---------------------
 
 const anonymousFunc = function () {
   console.log("Anonymous function", this);
