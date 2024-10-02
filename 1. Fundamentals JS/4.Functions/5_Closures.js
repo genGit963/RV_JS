@@ -40,7 +40,7 @@ closureFunc(); // Output: 'I am from outer scope'
     * Callbacks: Store variables in event handlers or asynchronous functions.
     * Function factories: Create functions with pre-configured settings.
  */
-// Example: Data Encapsulation
+//1. Example: Data Encapsulation
 function counter() {
   let count = 0; // Private variable
 
@@ -55,7 +55,7 @@ increment(); // Count: 1
 increment(); // Count: 2
 increment(); // Count: 3
 
-// 5. Example: Function Factory
+//2. Example: Function Factory
 // Closures can be used to create functions that are "pre-configured" with certain values.
 function createMultiplier(multiplier) {
   return function (number) {
@@ -68,3 +68,14 @@ const triple = createMultiplier(3);
 
 console.log(double(5)); // 10
 console.log(triple(5)); // 15
+
+// 3. Asynchronous Example
+// Closures are often used in asynchronous programming to
+// retain access to variables even after the surrounding function has executed.
+function delayedMessage(message, delay) {
+  setTimeout(function () {
+    console.log(message);
+  }, delay);
+}
+
+delayedMessage("Hello, Mahesh!", 2000); // Prints message after 2 seconds
