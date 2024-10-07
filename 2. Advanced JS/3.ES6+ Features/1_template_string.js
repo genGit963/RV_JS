@@ -21,3 +21,22 @@ that spans multiple
 lines.`;
 
 console.log(multiLineString);
+
+// 2. Variable Interpolation
+const name1 = "Alice";
+const age = 25;
+
+const greeting = `Hello, my name is ${name1} and I am ${age} years old.`;
+console.log(greeting);
+
+// 3. Using Expressions
+const a = 5;
+const b = 10;
+
+const sumMessage = `The sum of ${a} and ${b} is ${a + b}.`;
+console.log(sumMessage);
+
+// 4. Nesting Template Literals
+const name2 = "Bob";
+const message = `Welcome, ${`${name2}`}. Enjoy your stay!`;
+console.log(message);
