@@ -12,8 +12,8 @@
         by reducing the need for conditional statements to 
         check for undefined values
 */
-function createGreeting(greeting = "Hello", name = "World") {
-  return `${greeting}, ${name}!`;
+function createGreeting(greeting = "Hello", name = "World", remark) {
+  return `${greeting}, ${name}! ` + remark;
 }
 
 console.log(createGreeting()); // Output: Hello, World!
