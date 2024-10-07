@@ -65,10 +65,6 @@ This repository is designed for JavaScript enthusiasts who are eager to dive dee
 
 Feel free to explore the topics, contribute, and share your journey in mastering JavaScript. Let’s embark on this exciting coding adventure together!
 
-## 📫 Connect with Me
-
-For questions, feedback, or collaboration, feel free to reach out!
-
 ---
 
 Happy coding! 🚀
