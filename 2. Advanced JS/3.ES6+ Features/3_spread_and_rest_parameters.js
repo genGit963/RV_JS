@@ -50,10 +50,21 @@ console.log(mergedObj); // Output: { a: 1, b: 3, c: 4 }
  */
 // 1: Basic Usage
 function sum(...numbers) {
-  console.log("given parameterss: ", numbers);
+  console.log("given parameterss ", numbers);
   return numbers.reduce((acc, num) => acc + num, 0);
 }
 console.log(sum(1, 2, 3)); // Output: 6
 console.log(sum(4, 5, 6, 7, 8)); // Output: 30
 
 // 2. Mixing with Regular Parameters
+function multiply(factor, ...numbers) {
+  return numbers.map((num) => num * factor);
+}
+console.log(multiply(2, 1, 2, 3)); // Output: [2, 4, 6]
+
+// 3. Rest Parameters with Array Methods
+function logAll(...args) {
+  console.log(args);
+}
+
+logAll("apple", "banana", "cherry"); // Output: ['apple', 'banana', 'cherry']
