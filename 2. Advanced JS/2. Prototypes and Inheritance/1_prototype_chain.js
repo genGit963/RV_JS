@@ -66,6 +66,7 @@ const dog = new Dog("Rex");
 
 dog.speak(); // Output: Rex barks.
 console.log(dog.name); // Output: Rex
+dog.jump();
 
 // Check the prototype chain
 console.log("dog prototype: ", Object.getPrototypeOf(dog)); // Output: Dog { speak: [Function (anonymous)] }
