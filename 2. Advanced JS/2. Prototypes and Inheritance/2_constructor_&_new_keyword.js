@@ -54,5 +54,6 @@ person1.display();
 person2.display();
 
 // enlisting the all prototypes
+// Note: display() will not be in prototypes
 console.log("person1 prototypes: ", Object.getPrototypeOf(person1)); // Output: person1 prototypes:  { greet: [Function (anonymous)] }
 console.log("person2 prototypes: ", Object.getPrototypeOf(person2)); // Output: person2 prototypes:  { greet: [Function (anonymous)] }
