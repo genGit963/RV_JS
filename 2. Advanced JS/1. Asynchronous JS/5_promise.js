@@ -36,3 +36,27 @@ promise
   .catch((error) => {
     console.error("Error: ", error);
   });
+
+//   Example of fetching data from a server using a promise-like approach
+
+function fetchData() {
+  return new Promise((resolve, reject) => {
+    const data = "Sample Data";
+    const isSuccess = true; // Simulating success
+    setTimeout(() => {
+      if (isSuccess) {
+        resolve(data);
+      } else {
+        reject("Error fetching data.");
+      }
+    }, 2000); // Simulate a 2-second delay
+  });
+}
+
+fetchData()
+  .then((data) => {
+    console.log("Data received:", data);
+  })
+  .catch((error) => {
+    console.error(error);
+  });
