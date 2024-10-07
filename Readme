@@ -4,7 +4,7 @@ Welcome to **Mastering JavaScript**, your all-in-one resource for becoming a pro
 
 ## 📚 In-Depth Topics Covered
 
-### 1. JavaScript Fundamentals
+### 1. **JavaScript Fundamentals**
 
 - **Syntax and Operators**
   - Variable declarations: `var`, `let`, and `const`
@@ -18,7 +18,7 @@ Welcome to **Mastering JavaScript**, your all-in-one resource for becoming a pro
   - Function declarations, expressions, and arrow functions
   - Higher-order functions, callbacks, and closures
 
-### 2. Advanced JavaScript Concepts
+### 2. **Advanced JavaScript Concepts**
 
 - **Asynchronous JavaScript**
   - Call stack, callback queue, and event loop
@@ -28,32 +28,32 @@ Welcome to **Mastering JavaScript**, your all-in-one resource for becoming a pro
 - **ES6+ Features**
   - Template literals, destructuring, spread/rest parameters, and modules
 
-### 3. Object-Oriented Programming (OOP) in JavaScript
+### 3. **Object-Oriented Programming (OOP) in JavaScript**
 
 - Constructor functions and classes
 - Inheritance and mixins
 
-### 4. Functional Programming in JavaScript
+### 4. **Functional Programming in JavaScript**
 
 - First-class functions and higher-order functions
 - Currying and partial application
 
-### 5. Working with the DOM
+### 5. **Working with the DOM**
 
 - Manipulating the DOM and event handling
 
-### 6. JavaScript Ecosystem
+### 6. **JavaScript Ecosystem**
 
 - Package management with npm and yarn
 - Build tools like Webpack and Babel
 - Testing and linting practices
 
-### 7. APIs and Data Handling
+### 7. **APIs and Data Handling**
 
 - Fetch API and Axios for HTTP requests
 - Working with JSON and RESTful APIs
 
-### 8. Performance Optimization
+### 8. **Performance Optimization**
 
 - Understanding the critical rendering path and memory management
 
