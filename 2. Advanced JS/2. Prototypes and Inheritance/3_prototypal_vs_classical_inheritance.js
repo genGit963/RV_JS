@@ -28,8 +28,10 @@
 */
 // Parent object
 const animal = {
+  name: "Jaxey",
   speak: function () {
     console.log("Animal speaks");
+    console.log("name: ", this.name);
   },
 };
 
@@ -39,5 +41,45 @@ dog.bark = function () {
   console.log("Dog barks");
 };
 
-dog.speak(); // Output: "Animal speaks"
+dog.speak(); // Output: "Animal speaks Programmer: mahesh"
+dog.name = "Jax";
 dog.bark(); // Output: "Dog barks"
+
+/**
+ * Classical Inheritance
+        It is more common in languages like Java or C++. 
+        In JavaScript, classical inheritance can be achieved 
+
+        using the "class" syntax introduced in ES6. 
+        Here, classes can be created, and 
+        one class can inherit from another using the extends keyword.
+
+    Key Features:
+        Classes and constructors: 
+            You define a class with a constructor and methods. 
+            Instances of the class can inherit from it.
+
+        Static methods: 
+            You can define static methods on classes 
+            that are not tied to instances but rather to the class itself.
+            
+        More structured: 
+            It often resembles classical inheritance patterns in other languages.
+*/
+// Parent class
+class Animal {
+  speak() {
+    console.log("Animal speaks");
+  }
+}
+
+// Child class inheriting from Animal
+class Dog extends Animal {
+  bark() {
+    console.log("Dog barks");
+  }
+}
+
+const myDog = new Dog();
+myDog.speak(); // Output: "Animal speaks"
+myDog.bark(); // Output: "Dog barks"
