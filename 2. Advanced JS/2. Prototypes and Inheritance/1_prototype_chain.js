@@ -52,9 +52,13 @@ Dog.prototype = Object.create(Animal.prototype);
 // Set the constructor property back to Dog
 Dog.prototype.constructor = Dog;
 
-// Add a method specific to Dog
+// Add a method specific to Dog : Overiding speak()
 Dog.prototype.speak = function () {
   console.log(`${this.name} barks.`);
+};
+
+Dog.prototype.jump = function () {
+  console.log(`${this.name} can jumps.`);
 };
 
 // Create an instance of Dog
