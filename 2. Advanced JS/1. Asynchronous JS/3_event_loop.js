@@ -36,7 +36,7 @@ console.log("Start"); // Executes first
 
 setTimeout(() => {
   console.log("Inside setTimeout"); // Executes last
-}, 1000);
+}, 0);
 
 Promise.resolve().then(() => {
   console.log("Inside Promise"); // Executes before setTimeout
