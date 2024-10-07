@@ -14,3 +14,11 @@
         into individual elements. 
         It's useful for merging or cloning arrays and objects.
 */
+const numbers = [1, 2, 3];
+const moreNumbers = [4, 5, ...numbers, 6];
+console.log(moreNumbers); // Output: [4, 5, 1, 2, 3, 6]
+
+// cloning array
+const originalArray = [1, 2, 3];
+const clonedArray = [...originalArray];
+console.log(clonedArray); // Output: [1, 2, 3]
