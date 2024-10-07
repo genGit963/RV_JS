@@ -68,8 +68,12 @@ dog.speak(); // Output: Rex barks.
 console.log(dog.name); // Output: Rex
 
 // Check the prototype chain
-console.log(Object.getPrototypeOf(dog)); // Output: Dog { speak: [Function (anonymous)] }
-console.log(Object.getPrototypeOf(Object.getPrototypeOf(dog))); // Output: Animal { speak: [Function (anonymous)] }
+console.log("dog prototype: ", Object.getPrototypeOf(dog)); // Output: Dog { speak: [Function (anonymous)] }
 console.log(
+  "\n prototype of prototype of dog: ",
+  Object.getPrototypeOf(Object.getPrototypeOf(dog))
+); // Output: Animal { speak: [Function (anonymous)] }
+console.log(
+  "\n prototype of prototype of prototype of dog: ",
   Object.getPrototypeOf(Object.getPrototypeOf(Object.getPrototypeOf(dog)))
 ); // Output: null
