@@ -44,6 +44,7 @@ dog.bark = function () {
 dog.speak(); // Output: "Animal speaks Programmer: mahesh"
 dog.name = "Jax";
 dog.bark(); // Output: "Dog barks"
+dog.speak();
 
 /**
  * Classical Inheritance
