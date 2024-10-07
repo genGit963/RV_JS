@@ -55,7 +55,7 @@ function fetchData() {
 
 fetchData()
   .then((data) => {
-    console.log("Data received:", data);
+    console.log("Data received:", { data });
   })
   .catch((error) => {
     console.error(error);
