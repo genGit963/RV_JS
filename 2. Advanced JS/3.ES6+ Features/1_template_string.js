@@ -7,7 +7,7 @@
     They are enclosed by backticks (`) instead of single (') 
     or double quotes (")
 
-    Features of Template literals string:
+Power of Template literals string:
         1. Multi-line Strings
         2. Variable Interpolation
         3. Using Expressions
@@ -40,3 +40,14 @@ console.log(sumMessage);
 const name2 = "Bob";
 const message = `Welcome, ${`${name2}`}. Enjoy your stay!`;
 console.log(message);
+
+// 5. Tagged Templates
+function tag(strings, ...values) {
+  console.log(strings); // Array of string segments
+  console.log(values); // Array of values to interpolate
+}
+
+const x = 10;
+const y = 20;
+
+tag`The sum of ${x} and ${y} is ${x + y}.`;
