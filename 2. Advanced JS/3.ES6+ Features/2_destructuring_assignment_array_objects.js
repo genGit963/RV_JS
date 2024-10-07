@@ -15,6 +15,8 @@
             2. Default values
 
         3. Nested Destructuring
+            1. Nested Array
+            2. Nested Object
 
 */
 // ----------- 1. Destructuring Arrays -----------
@@ -72,4 +74,27 @@ const { title, author = "Unknown" } = book;
 console.log(title); // Output: '1984'
 console.log(author); // Output: 'Unknown'
 
-// 3. Nested Destructuring
+// ---------- 3. Nested Destructuring ------------
+// 3.1 Destructuring nested arrays
+const coordinates = [10, 20, [30, 40]];
+const [x, y, [z, w]] = coordinates;
+console.log(x); // Output: 10
+console.log(y); // Output: 20
+console.log(z); // Output: 30
+console.log(w); // Output: 40
+
+// 3.2 Destructuring nested objects
+const employee = {
+  id: 1,
+  details: {
+    name: "Bob",
+    position: "Developer",
+  },
+};
+const {
+  id,
+  details: { name, position },
+} = employee;
+console.log(id); // Output: 1
+console.log(name); // Output: 'Bob'
+console.log(position); // Output: 'Developer'
