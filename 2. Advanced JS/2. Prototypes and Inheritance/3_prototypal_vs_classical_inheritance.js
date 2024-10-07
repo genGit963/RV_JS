@@ -26,6 +26,7 @@
             Prototypal inheritance allows for direct linking 
             between objects, which can lead to more dynamic behavior.
 */
+console.log("\n-------- Prototypal inheritance ------------");
 // Parent object
 const animal = {
   name: "Jaxey",
@@ -67,6 +68,7 @@ dog.speak();
         More structured: 
             It often resembles classical inheritance patterns in other languages.
 */
+console.log("\n-------- Classical inheritance ------------");
 // Parent class
 class Animal {
   speak() {
