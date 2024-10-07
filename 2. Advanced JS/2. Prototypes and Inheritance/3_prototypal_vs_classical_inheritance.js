@@ -31,7 +31,7 @@ const animal = {
   name: "Jaxey",
   speak: function () {
     console.log("Animal speaks");
-    console.log("name: ", this.name);
+    console.log("Name is: ", this.name);
   },
 };
 
