@@ -65,6 +65,6 @@ console.log(multiply(2, 1, 2, 3)); // Output: [2, 4, 6]
 // 3. Rest Parameters with Array Methods
 function logAll(...args) {
   console.log(args);
+  console.log(...args);
 }
-
 logAll("apple", "banana", "cherry"); // Output: ['apple', 'banana', 'cherry']
