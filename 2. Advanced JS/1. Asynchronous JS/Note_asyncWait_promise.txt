@@ -1,0 +1,15 @@
+Promises:
+    were introduced in ECMAScript 2015 (ES6), 
+    which was released in June 2015. 
+    
+    They provided a way to handle asynchronous operations 
+    and were a significant improvement 
+    over earlier callback-based approaches.
+
+Async/Await:
+    was introduced later in ECMAScript 2017 (ES8), 
+    which was finalized in June 2017. 
+    
+    This feature builds on Promises and allows 
+    for writing asynchronous code 
+    that looks and behaves more like synchronous code.
