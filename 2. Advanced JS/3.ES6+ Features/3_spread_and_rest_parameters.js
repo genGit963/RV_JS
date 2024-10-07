@@ -68,3 +68,13 @@ function logAll(...args) {
   console.log(...args);
 }
 logAll("apple", "banana", "cherry"); // Output: ['apple', 'banana', 'cherry']
+
+/**
+ * Spread Operator (...): 
+        Expands elements of an iterable (arrays or objects) 
+        into individual elements. 
+
+ * Rest Parameters (...args): 
+        Collects multiple function arguments into a single array, 
+        allowing functions to accept any number of arguments.
+*/
