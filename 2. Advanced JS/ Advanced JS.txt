@@ -1,0 +1,19 @@
+2.  ------------------------ Advanced JavaScript Concepts ------------------------ 
+    - Asynchronous JavaScript
+      - Understanding the call stack, callback queue, and event loop
+      - Callbacks and the problem of callback hell
+      - Promises: creation, chaining, error handling with `.then()` and `.catch()`
+      - Async/Await: simplifying promise-based code with `async` functions and the `await` keyword
+
+    - Prototypes and Inheritance
+      - Understanding the prototype chain
+      - Constructor functions and the `new` keyword
+      - Prototypal inheritance vs. classical inheritance
+      - ES6 class syntax for defining classes and inheritance
+
+    - ES6+ Features
+      - Template literals for multi-line strings and variable interpolation
+      - Destructuring assignment for arrays and objects
+      - Spread (`...`) and rest parameters (`...args`)
+      - Default parameters in function definitions
+      - Modules: `import` and `export` syntax for modular programming

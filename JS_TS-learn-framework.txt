@@ -1,5 +1,8 @@
 Here’s a more in-depth breakdown of topics related to JavaScript (JS) and TypeScript (TS) that you should explore to become an expert:
 
+To learn how js  work: 
+https://sobitprasad.hashnode.dev/how-asynchronous-javascript-works-a-deep-dive-into-its-execution-process
+
  ------------------------------------------------ In-Depth JavaScript Topics ------------------------------------------------
 
 1.  ------------------------ JavaScript Fundamentals ------------------------ 

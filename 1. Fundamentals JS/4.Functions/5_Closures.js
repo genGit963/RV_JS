@@ -36,9 +36,9 @@ closureFunc(); // Output: 'I am from outer scope'
         
     Some key use cases:
 
-    * Data encapsulation: Hide variables from being accessed or modified from outside the function.
-    * Callbacks: Store variables in event handlers or asynchronous functions.
-    * Function factories: Create functions with pre-configured settings.
+    * "Data encapsulation": Hide variables from being accessed or modified from outside the function.
+    * "Callbacks": Store variables in event handlers or asynchronous functions.
+    * "Function factories": Create functions with pre-configured settings.
  */
 //1. Example: Data Encapsulation
 function counter() {
