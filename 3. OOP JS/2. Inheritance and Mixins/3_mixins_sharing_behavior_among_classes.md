@@ -4,7 +4,7 @@ Mixins provide `a way to share behavior among multiple classes without using a s
 
 ## What are Mixins?
 
-- **Mixins** are objects or functions that contain methods or properties that can be shared across multiple classes.
+- **Mixins** are `objects` or `functions` that contain methods or properties that can be shared across multiple classes.
 - They are used to compose classes by extending their behavior, without the need for a direct parent-child relationship.
 - Mixins help you avoid the limitations of single inheritance by allowing multiple functionalities to be mixed into a class.
 

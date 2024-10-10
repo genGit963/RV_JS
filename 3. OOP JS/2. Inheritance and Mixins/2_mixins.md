@@ -124,6 +124,7 @@ Mixins are particularly useful in scenarios where you need to add multiple behav
 - **Event Handling**: Methods to add and remove event listeners can be shared across different classes.
 - **Data Formatting**: Utility functions for formatting dates or numbers can be applied to multiple classes.
 - **Logging**: Centralized logging methods can be easily included in classes that need them.
+- **Middleware Use**: Implemenation of some middleware functionality among classes
 
 ### Summary
 
