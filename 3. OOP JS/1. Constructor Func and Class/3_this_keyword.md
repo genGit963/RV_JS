@@ -65,7 +65,7 @@ arrowFunction(); // Output: global object if called in global context
 
 Arrow functions are often used when you want to ensure that `this` refers to the parent scope.
 
-### 5. **Event Handler Context**
+## 5. **Event Handler Context**
 
 When `this` is used in an event handler in the browser, it refers to the element that triggered the event.
 
@@ -80,7 +80,7 @@ When `this` is used in an event handler in the browser, it refers to the element
 
 In this example, `this` refers to the button that was clicked.
 
-### 6. **Explicit Binding using `call`, `apply`, and `bind`**
+## 6. **Explicit Binding using `call`, `apply`, and `bind`**
 
 JavaScript provides methods to explicitly set the value of `this` using `call`, `apply`, and `bind`.
 
@@ -102,7 +102,7 @@ const boundFunction = sayHello.bind(person);
 boundFunction("Hey"); // Output: Hey, my name is Mahesh
 ```
 
-### 7. **`this` in Strict Mode**
+## 7. **`this` in Strict Mode**
 
 In strict mode, `this` behaves differently:
 
@@ -121,12 +121,12 @@ showThis(); // Output: undefined
 
 ### Summary of `this` Behavior
 
-- **Global Context**: Refers to the global object (`window` in browsers, `global` in Node.js).
-- **Object Method**: Refers to the object that owns the method.
-- **Constructor Function**: Refers to the newly created object.
-- **Arrow Function**: Inherits `this` from the parent scope.
-- **Event Handler**: Refers to the element that triggered the event.
-- **`call`, `apply`, `bind`**: Explicitly set the value of `this`.
-- **Strict Mode**: `this` is `undefined` in functions that aren't methods.
+1.  **Global Context**: Refers to the global object (`window` in browsers, `global` in Node.js).
+2.  **Object Method**: Refers to the object that owns the method.
+3.  **Constructor Function**: Refers to the newly created object.
+4.  **Arrow Function**: Inherits `this` from the parent scope.
+5.  **Event Handler**: Refers to the element that triggered the event.
+6.  **`call`, `apply`, `bind`**: Explicitly set the value of `this`.
+7.  **Strict Mode**: `this` is `undefined` in functions that aren't methods.
 
 Understanding these different contexts will help you use `this` effectively in your JavaScript code. Let me know if you need more clarification on any of these concepts!
