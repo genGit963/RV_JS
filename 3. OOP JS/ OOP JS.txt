@@ -1,0 +1,9 @@
+3.  ------------------------ Object-Oriented Programming (OOP) in JavaScript ------------------------ 
+    - Constructor Functions and Classes
+      - Defining and instantiating objects using constructor functions
+      - Understanding `this` in different contexts
+      - Defining classes using ES6 syntax
+
+    - Inheritance and Mixins
+      - Extending classes with inheritance
+      - Using mixins to share behavior among classes
