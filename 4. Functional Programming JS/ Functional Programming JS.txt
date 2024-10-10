@@ -1,0 +1,10 @@
+4.  ------------------------ Functional Programming in JavaScript ------------------------ 
+    - First-Class Functions
+      - Functions as first-class citizens: assigning them to variables, passing them as arguments, and returning them from other functions
+
+    - Higher-Order Functions
+      - Creating functions that accept or return other functions
+      - Common higher-order functions: `map`, `filter`, and `reduce`
+
+    - Currying and Partial Application
+      - Techniques for transforming functions that take multiple arguments into a series of functions that take a single argument
