@@ -73,7 +73,7 @@ Here, the same `LoggerMixin` is used with the `Product` class, demonstrating how
 
 ## Implementing Mixins with Functions
 
-Another way to implement mixins is by using functions that accept a base class as a parameter and extend its behavior. This approach is more flexible and allows for method chaining.
+Another way to implement mixins is by using functions that <u>accept a base class as a parameter</u> and extend its behavior. This approach is more flexible and allows for method chaining.
 
 ### Example: Functional Mixins
 
