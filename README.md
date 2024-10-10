@@ -1,4 +1,4 @@
-# 🚀 Mastering JavaScript: Your Ultimate Guide to Code Brilliance!
+# 🚀 Riddle of JavaScript: Your Ultimate Guide to Code Brilliance!
 
 Welcome to **Mastering JavaScript**, your all-in-one resource for becoming a proficient JavaScript and TypeScript developer! Whether you're a beginner or an experienced programmer, this guide provides a structured pathway to elevate your coding skills.
 
