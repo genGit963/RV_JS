@@ -4,7 +4,7 @@ In JavaScript, OOP is a programming paradigm that uses `objects` and `classes` t
 
 ## 1. **Class**
 
-A class is a blueprint for creating objects. It defines properties (attributes) and methods (functions) that the objects created from the class can use.
+A class is a blueprint for creating objects. It defines `properties` (attributes) and `methods` (functions) that the objects created from the class can use.
 
 ### Example
 
@@ -32,7 +32,7 @@ An object is an instance of a class. It contains properties and methods defined 
 
 In the above example, `person1` is an object created from the `Person` class.
 
-### 3. **Encapsulation**
+## 3. **Encapsulation**
 
 Encapsulation is the concept of bundling data (properties) and methods that operate on that data into a single unit (a class). It also involves restricting access to some components to keep data safe from unintended modifications.
 
@@ -81,8 +81,12 @@ class Animal {
 }
 
 class Dog extends Animal {
+  constructuor(name, sound) {
+    super(name);
+    this.sound = sound;
+  }
   speak() {
-    console.log(`${this.name} barks.`);
+    console.log(`${this.name} can ${this.sound}.`);
   }
 }
 
@@ -92,7 +96,7 @@ dog.speak(); // Output: Rex barks.
 
 The `Dog` class inherits the properties and methods of the `Animal` class and can also have its own specific methods.
 
-### 5. **Polymorphism**
+## 5. **Polymorphism**
 
 Polymorphism means "many forms." In the context of OOP, it allows methods to do different things based on the object they are called on.
 
