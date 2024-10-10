@@ -1,8 +1,8 @@
-# Constructor
+# Constructor Functions
 
 Constructor functions are a way to create and define objects using a function that acts as a blueprint for the object. Constructor functions help create multiple instances of an object with the same properties and methods.
 
-### Defining a Constructor Function
+## Defining a Constructor Function
 
 A constructor function is defined like a regular function but follows a few conventions:
 
@@ -30,9 +30,9 @@ In this example:
 - It has two properties, `name` and `age`, which are set using `this`.
 - It also has a method `greet`, which is used to display a message.
 
-### Instantiating Objects Using the Constructor Function
+## Instantiating Objects Using the Constructor Function
 
-To create an object (an instance of the constructor), you use the `new` keyword. This creates a new object with the specified properties and methods.
+To create an object (an instance of the constructor), you use the **`new`** keyword. This creates a new object with the specified properties and methods.
 
 ```javascript
 const person1 = new Person("Mahesh", 28);
@@ -42,7 +42,7 @@ person1.greet(); // Output: Hello, my name is Mahesh and I am 28 years old.
 person2.greet(); // Output: Hello, my name is Motki and I am 26 years old.
 ```
 
-### How It Works
+## How It Works
 
 When you use the `new` keyword with the constructor function:
 
@@ -51,7 +51,7 @@ When you use the `new` keyword with the constructor function:
 3. The properties and methods are added to the new object.
 4. The new object is returned automatically.
 
-### Adding Methods to Constructor Functions Using Prototypes
+## Adding Methods to Constructor Functions Using Prototypes
 
 To avoid duplicating methods for every object instance, it's a good practice to add methods to the constructor's prototype. This way, all instances share the same method, which saves memory.
 
