@@ -1,4 +1,4 @@
-# Mixins use to share behavior among classes
+# Using mixins to share behavior among classes
 
 Mixins provide `a way to share behavior among multiple classes without using a strict inheritance hierarchy`. They allow you to take pieces of functionality and mix them into any number of classes, making it easy to reuse code in a modular way.
 
