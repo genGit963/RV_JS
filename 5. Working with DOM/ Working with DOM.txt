@@ -1,0 +1,10 @@
+5.  ------------------------ Working with the DOM ------------------------ 
+    - Manipulating the DOM
+      - Selecting elements using `document.querySelector()`, `document.getElementById()`, etc.
+      - Modifying elements: `innerHTML`, `textContent`, attributes, and styles
+      - Creating and removing elements dynamically with `createElement`, `appendChild`, and `removeChild`
+
+    - Event Handling
+      - Adding event listeners using `addEventListener`
+      - Event propagation: capturing vs. bubbling
+      - Event delegation for efficient event handling

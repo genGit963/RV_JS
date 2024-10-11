@@ -1,0 +1,11 @@
+7.  ------------------------ APIs and Data Handling ------------------------ 
+    - Fetch API and Axios
+      - Making HTTP requests to REST APIs using the Fetch API
+      - Handling responses and errors
+      - Using Axios for promise-based HTTP requests with interceptors
+
+    - Working with JSON
+      - Parsing JSON data with `JSON.parse()` and stringifying with `JSON.stringify()`
+
+    - Understanding RESTful APIs
+      - REST principles: resource-based URLs, statelessness, and standard HTTP methods (GET, POST, PUT, DELETE)

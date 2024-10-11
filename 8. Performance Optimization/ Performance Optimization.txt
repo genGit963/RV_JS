@@ -1,0 +1,8 @@
+8.  ------------------------ Performance Optimization ------------------------ 
+    - Critical Rendering Path
+      - Understanding how browsers render web pages and optimize loading times
+      - Techniques for minimizing layout and repainting
+
+    - Memory Management
+      - Understanding garbage collection and memory leaks
+      - Profiling and debugging performance issues with browser dev tools
