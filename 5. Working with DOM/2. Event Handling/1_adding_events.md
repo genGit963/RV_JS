@@ -20,7 +20,7 @@ Event listeners are a powerful concept in JavaScript that enable developers to m
 
 ## 1. What is an Event Listener?
 
-An **event listener** is a function that waits for a specified event to occur on a particular element, such as a button click, mouse movement, key press, or any other action. When the event is triggered, the function executes in response to that event.
+An **`event listener`** is a function that `waits for a specified event to occur on a particular element`, such as a button click, mouse movement, key press, or any other action. When the event is triggered, the function executes in response to that event.
 
 For example, clicking a button on a webpage could trigger an event listener to run a function that displays an alert or changes some content.
 
