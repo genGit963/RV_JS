@@ -148,10 +148,10 @@ document
 
 ## Conclusion
 
-- **Event delegation leverages event propagation to manage events efficiently.**
-- **It helps reduce memory consumption by using fewer event listeners.**
-- **It works well with dynamic content, where child elements are added or removed frequently.**
-- **Be cautious with event.target usage and nested elements to avoid unexpected behavior.**
-- **Event delegation is ideal for large-scale DOM structures, but not always necessary for static elements.**
+- Event delegation leverages event propagation to manage events efficiently.
+- It helps reduce memory consumption by using fewer event listeners.
+- It works well with dynamic content, where child elements are added or removed frequently.
+- Be cautious with event.target usage and nested elements to avoid unexpected behavior.
+- Event delegation is ideal for large-scale DOM structures, but not always necessary for static elements.
 
 By understanding and applying event delegation correctly, you can significantly optimize your web application's performance and create cleaner, more maintainable code.
