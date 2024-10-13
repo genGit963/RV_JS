@@ -2,7 +2,7 @@
 
 ## Overview of Topic
 
-Dynamic manipulation of the Document Object Model (DOM) is a crucial aspect of modern web development. Using JavaScript, developers can create, modify, and remove HTML elements dynamically, allowing for interactive and responsive web applications. The key methods for this manipulation are `createElement`, `appendChild`, and `removeChild`. This guide will cover these methods in detail, including their usage, best practices, and common pitfalls.
+Dynamic manipulation of the Document Object Model (DOM) is a crucial aspect of modern web development. Using JavaScript, developers can `create`, `modify`, and `remove` HTML elements dynamically, allowing for interactive and responsive web applications. The key methods for this manipulation are `createElement`, `appendChild`, and `removeChild`.
 
 ## Table of Contents
 
