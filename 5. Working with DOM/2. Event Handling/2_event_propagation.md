@@ -2,7 +2,7 @@
 
 ## Overview of Topic
 
-Event propagation is a key concept in JavaScript that defines the order in which event handlers are executed when a user interacts with the DOM (Document Object Model). Understanding event propagation mechanisms, specifically capturing and bubbling, is crucial for developing efficient and bug-free event-driven applications. These concepts determine how events travel through the DOM tree and which event listeners get triggered.
+Event propagation is a key concept in JavaScript that defines the `order in which event handlers are executed when a user interacts with the DOM` (Document Object Model). Understanding event propagation mechanisms, specifically `capturing` and `bubbling`, is crucial for developing efficient and bug-free event-driven applications. These concepts determine how events travel through the DOM tree and which event listeners get triggered.
 
 ## Table of Content
 
@@ -39,7 +39,7 @@ Event propagation is a key concept in JavaScript that defines the order in which
 ### How Event Propagation Works
 
 - Events flow through the DOM in three phases: **capturing**, **target**, and **bubbling**.
-- The event moves from the root element of the DOM down to the target (capturing), triggers on the target (target phase), and then moves up to the root element again (bubbling).
+- **The event moves from the root element of the DOM down to the target (capturing), triggers on the target (target phase), and then moves up to the root element again (bubbling)**.
 
 ## 2. Phases of Event Propagation
 
