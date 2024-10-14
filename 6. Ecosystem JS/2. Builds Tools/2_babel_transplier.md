@@ -55,7 +55,7 @@ The primary use of Babel is to allow developers to take advantage of modern Java
 
 - **Browser compatibility:** Enables modern JavaScript to work in all browsers.
 - **Code optimization:** Supports minification and compilation of code to improve performance.
-- **Plugin-based architecture:** Easily extendable with plugins to support different syntaxes like JSX and TypeScript.
+- **Plugin-based architecture:** Easily extendable with plugins to support different syntaxes like `JSX` and `TypeScript`.
 
 ## 2. Babel Installation and Setup
 
