@@ -87,7 +87,7 @@ This tells Babel to use the `@babel/preset-env` preset to determine which JavaSc
 
 ### What are Babel Presets?
 
-Presets are collections of Babel plugins that allow you to easily configure the level of transpilation you need. For example, the `@babel/preset-env` preset can be used to automatically include the necessary plugins to transpile modern JavaScript.
+`Presets` are <i>**collections of Babel plugins that allow you to easily configure the level of transpilation you need**</i>. For example, the `@babel/preset-env` preset can be used to automatically include the necessary plugins to transpile modern JavaScript.
 
 ### Commonly Used Presets
 
