@@ -2,9 +2,9 @@
 
 ## Overview of Babel
 
-Babel is a popular JavaScript compiler that allows you to write modern JavaScript code that can run in older browsers or environments that may not support the latest ECMAScript (JavaScript) features. It transpiles or converts the code written in newer JavaScript versions (ES6+) to older versions (ES5 or earlier), ensuring compatibility across different platforms.
+Babel is a popular JavaScript compiler that allows you to write modern JavaScript code that can run in older browsers or environments that may not support the latest ECMAScript (JavaScript) features. It <u>transpiles or converts the code written in newer JavaScript versions (ES6+) to older versions (ES5 or earlier), ensuring compatibility across different platforms</u>.
 
-The primary use of Babel is to allow developers to take advantage of modern JavaScript features without worrying about browser compatibility issues. It also offers plugins and presets that extend its functionality for specific needs like compiling JSX (used in React), TypeScript, and more.
+The primary use of Babel is to allow developers to take advantage of modern JavaScript features without worrying about browser compatibility issues.` It also offers plugins and presets that extend its functionality for specific needs like compiling JSX (used in React), TypeScript, and more`.
 
 ## Table of Content
 
@@ -49,7 +49,7 @@ The primary use of Babel is to allow developers to take advantage of modern Java
 
 ### What is Babel?
 
-Babel is a JavaScript transpiler that converts ECMAScript 2015+ (ES6+) code into a backward-compatible version of JavaScript that can run in older browsers. This ensures that modern JavaScript features can be used without worrying about browser support.
+<b>Babel is a JavaScript transpiler that converts ECMAScript 2015+ (ES6+) code into a backward-compatible version of JavaScript that can run in older browsers</b>. This ensures that modern JavaScript features can be used without worrying about browser support.
 
 ### Why use Babel?
 
