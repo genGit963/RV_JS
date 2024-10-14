@@ -57,7 +57,7 @@ By integrating ESLint into your development workflow, you can ensure that your c
 
 ### What is Linting?
 
-Linting is the process of analyzing code for potential errors, stylistic inconsistencies, and deviations from best practices. It helps in maintaining code quality by catching issues early in the development process.
+Linting is the `process of analyzing code for potential errors, stylistic inconsistencies, and deviations from best practices`. It helps in maintaining code quality by catching issues early in the development process.
 
 ### Why Linting is Important for Coding Standards
 

@@ -106,7 +106,7 @@ In this case, the code is already optimal, so no refactoring is needed.
 
 ## 3. Writing Effective Unit Tests
 
-### Principles of Good Unit Tests
+### **Principles of Good Unit Tests**
 
 - **Isolated:** Tests should focus on one unit of code without dependencies.
 - **Repeatable:** Tests should produce the same results every time.
@@ -159,6 +159,10 @@ const assert = require("chai").assert;
 describe("Sum Function", function () {
   it("should return 3 when 1 and 2 are added", function () {
     assert.equal(sum(1, 2), 3);
+  });
+
+  it("should return 2.45 when 1.45 and 1.00 are added", function () {
+    assert.equal(sum(1.45, 1.0), 3);
   });
 });
 ```
