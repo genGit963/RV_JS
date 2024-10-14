@@ -69,7 +69,7 @@ Linting is the `process of analyzing code for potential errors, stylistic incons
 
 ### What is ESLint?
 
-ESLint is a widely-used static code analysis tool specifically designed for JavaScript. It helps developers detect syntax errors, stylistic issues, and logical bugs by checking code against a set of configurable rules.
+ESLint is a widely-used `static code analysis tool` specifically designed for JavaScript. It helps developers detect syntax errors, stylistic issues, and logical bugs by checking code against a set of configurable rules.
 
 ### Benefits of Using ESLint
 
