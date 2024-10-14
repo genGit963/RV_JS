@@ -58,9 +58,9 @@ TDD has become a popular practice in Agile software development and is widely us
 
 Test-Driven Development (TDD) is a <i>**software development approach that involves writing tests before writing the actual code**</i>. The TDD process follows a repetitive cycle of:
 
-1. Writing a failing test (Red)
-2. Writing the minimal amount of code to pass the test (Green)
-3. Refactoring the code to improve its quality (Refactor)
+1. Writing a `failing test (Red)`
+2. Writing the `minimal amount of code to pass the test (Green)`
+3. Refactoring the `code to improve its quality (Refactor)`
 
 ### Benefits of Using TDD
 
@@ -68,7 +68,7 @@ Test-Driven Development (TDD) is a <i>**software development approach that invol
 - **Faster debugging:** Since tests are written upfront, bugs are identified early.
 - **Simpler designs:** TDD encourages simpler code structures and discourages over-engineering.
 
-## 2. The TDD Cycle
+## 2. The TDD Cycle (R-G-R)
 
 ### Red-Green-Refactor Cycle
 
