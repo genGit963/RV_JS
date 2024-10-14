@@ -2,7 +2,9 @@
 
 ## Overview of Test-Driven Development (TDD)
 
-Test-Driven Development (TDD) is a software development methodology in which tests are written before the actual code. In TDD, development is driven by writing a test for a new function or feature, making that test fail, and then writing the minimum amount of code to make the test pass. The process helps ensure that the code is correct, clean, and adheres to the intended functionality.
+Test-Driven Development (TDD) is a software development methodology in which `tests are written before the actual code`.
+
+In TDD, development is driven by writing a test for a new function or feature, making that test fail, and then writing the minimum amount of code to make the test pass. The process helps ensure that the code is correct, clean, and adheres to the intended functionality.
 
 TDD has become a popular practice in Agile software development and is widely used to increase the quality and maintainability of code. It encourages simple designs and inspires confidence in software changes through continuous testing.
 
@@ -54,7 +56,7 @@ TDD has become a popular practice in Agile software development and is widely us
 
 ### What is Test-Driven Development?
 
-Test-Driven Development (TDD) is a software development approach that involves writing tests before writing the actual code. The TDD process follows a repetitive cycle of:
+Test-Driven Development (TDD) is a <i>**software development approach that involves writing tests before writing the actual code**</i>. The TDD process follows a repetitive cycle of:
 
 1. Writing a failing test (Red)
 2. Writing the minimal amount of code to pass the test (Green)
