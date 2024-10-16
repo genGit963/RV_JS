@@ -31,9 +31,9 @@ The Critical Rendering Path (CRP) refers `to the sequence of steps a browser tak
 
 The Critical Rendering Path is the `process the browser follows to render a web page for the user`. It includes all the steps needed to convert the website’s code into a visual representation. <i>The goal is to minimize the time it takes for the browser to present a usable page to the user, also known as the `time-to-interactive`</i>.
 
-## ⚠️ 2. Steps in the Critical Rendering Path
+## 🌷 2. Steps in the Critical Rendering Path
 
-### 2.1 HTML Parsing and DOM Construction
+### 📜 2.1 HTML Parsing and DOM Construction
 
 - **`HTML Parsing`**: <br>The browser starts by downloading the HTML file from the server. It <b>parses the HTML content to create the Document Object Model (DOM), which represents the structure and content of the page</b>.
 
@@ -67,21 +67,22 @@ p {
 }
 ```
 
-### 2.3 JavaScript Execution
+### 📜 2.3 JavaScript Execution
 
-- **JavaScript's Role**: JavaScript can manipulate the DOM and CSSOM, and any change can cause a reflow or repaint, which affects rendering.
+- **JavaScript's Role**: JavaScript can `manipulate the DOM and CSSOM`, and <b>any change can cause a `reflow` or `repaint`, which affects rendering</b>.
+
 - **Blocking Behavior**: JavaScript blocks the parser if it modifies the DOM, so it’s important to understand how and when scripts are executed.
 
-### 2.4 Render Tree Construction
+### 📜 2.4 Render Tree Construction
 
 - The **Render Tree** combines the DOM and CSSOM trees to produce a visual representation of the page. It contains only the nodes required for visual output.
 
-### 2.5 Layout (Reflow)
+### 📜 2.5 Layout (Reflow)
 
 - During the **Layout** step, the browser calculates the position and size of elements in the render tree. This step is also known as reflow.
 - Elements are arranged according to their box model dimensions.
 
-### 2.6 Paint
+### 📜 2.6 Paint
 
 - **Painting** involves filling in the pixels on the screen based on the calculated styles and layout. It handles drawing colors, text, images, borders, shadows, etc.
 
