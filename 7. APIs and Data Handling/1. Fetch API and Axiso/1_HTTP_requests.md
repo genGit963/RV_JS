@@ -57,7 +57,7 @@ In this guide, we'll explore how to use the Fetch API to make HTTP requests, fro
 
 ### What is the Fetch API?
 
-The Fetch API is a modern JavaScript API for making HTTP requests to servers. It is built on Promises, making it easier to work with asynchronous requests. Fetch can be used to interact with RESTful APIs, retrieve JSON data, and send data to a server.
+The Fetch API is a modern JavaScript API for making HTTP requests to servers. It is built on `Promises`, making it easier `to work with asynchronous requests`. Fetch can be used to interact with RESTful APIs, retrieve JSON data, and send data to a server.
 
 ### Advantages of Using the Fetch API
 

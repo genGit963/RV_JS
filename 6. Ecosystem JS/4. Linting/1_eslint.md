@@ -2,7 +2,7 @@
 
 ## Overview of ESLint
 
-ESLint is a powerful open-source tool for identifying and fixing problems in JavaScript code. It helps enforce coding standards, detect errors, and promote best practices by analyzing code against a set of predefined rules. ESLint is highly customizable, making it suitable for a wide range of projects, from small scripts to large-scale applications.
+ESLint is a powerful open-source tool for identifying and fixing problems in JavaScript code. It helps enforce `coding standards`, `detect errors`, and `promote best practices by analyzing code against a set of predefined rules`. ESLint is highly customizable, making it suitable for a wide range of projects, from small scripts to large-scale applications.
 
 By integrating ESLint into your development workflow, you can ensure that your code adheres to consistent styling guidelines and reduce the number of bugs introduced during development. ESLint is widely used in the JavaScript ecosystem and supports modern JavaScript, TypeScript, and frameworks like React, Angular, and Vue.js.
 
