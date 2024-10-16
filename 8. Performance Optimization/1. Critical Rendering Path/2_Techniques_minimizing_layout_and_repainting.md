@@ -1,8 +1,8 @@
-# Techniques for Minimizing Layout and Repainting
+# Techniques for Minimizing `Layout` and `Repainting`
 
 ## Overview
 
-Layout and repainting are essential processes in rendering web pages, but they can have significant performance costs if not properly managed. These processes determine how content is displayed and updated on the screen. Minimizing layout and repainting is crucial for improving performance, particularly in web applications, as excessive operations can lead to lag and a poor user experience.
+`Layout` and `repainting` are essential `processes in rendering web pages`, but they can have significant performance costs if not properly managed. These processes determine how content is displayed and updated on the screen. Minimizing layout and repainting is crucial for improving performance, particularly in web applications, as excessive operations can lead to lag and a poor user experience.
 
 ## Table of Contents
 
@@ -35,11 +35,11 @@ Layout and repainting are essential processes in rendering web pages, but they c
 
 ### What is Layout?
 
-Layout is the process in which the browser calculates the size and position of elements on the page. This calculation determines how each element should appear and interact with the rest of the content.
+Layout is the `process in which the browser calculates the size and position of elements on the page`. This calculation determines how each element should appear and interact with the rest of the content.
 
 ### What is Repaint?
 
-Repaint occurs when changes are made to the appearance of an element without affecting its layout, such as changes to background color, visibility, or text color.
+Repaint occurs `when changes are made to the appearance of an element without affecting its layout, such as changes to background color, visibility, or text color`.
 
 ### Differences between Layout, Repaint, and Reflow
 
