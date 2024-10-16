@@ -53,7 +53,7 @@ In this guide, we will cover everything from the basics of Axios to advanced usa
 
 ### What is Axios?
 
-Axios is a promise-based HTTP client for JavaScript that can be used in both front-end (browser) and back-end (Node.js) environments. It provides an easy-to-use API for making HTTP requests, handling responses, and managing errors. Axios also includes built-in features like request/response transformation, timeout control, and more.
+Axios is a `promise-based HTTP client` for JavaScript that can be used in both front-end (browser) and back-end (Node.js) environments. It provides an easy-to-use API for making HTTP requests, handling responses, and managing errors. Axios also includes built-in features like request/response transformation, timeout control, and more.
 
 ### Advantages of Using Axios Over Fetch API
 
