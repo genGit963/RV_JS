@@ -52,7 +52,7 @@ The Critical Rendering Path is the `process the browser follows to render a web 
 </html>
 ```
 
-### 2.2 CSS Parsing and CSSOM Construction
+### 📜 2.2 CSS Parsing and CSSOM Construction
 
 - **`CSS Parsing`**: <br>After the DOM is created, the browser parses the CSS files to generate the `CSS Object Model (CSSOM)`. This step is crucial because it determines how elements will be styled.
 
@@ -75,12 +75,12 @@ p {
 
 ### 📜 2.4 Render Tree Construction
 
-- The **Render Tree** combines the DOM and CSSOM trees to produce a visual representation of the page. It contains only the nodes required for visual output.
+- The **`Render Tree`** combines the `DOM` and `CSSOM` trees to produce a `visual representation` of the page. It contains only the nodes required for visual output.
 
 ### 📜 2.5 Layout (Reflow)
 
-- During the **Layout** step, the browser calculates the position and size of elements in the render tree. This step is also known as reflow.
-- Elements are arranged according to their box model dimensions.
+- During the **`Layout`** step, the browser calculates the position and size of elements in the render tree. This step is also known as reflow.
+- Elements are arranged according to their **`box model`** dimensions.
 
 ### 📜 2.6 Paint
 
@@ -91,7 +91,7 @@ p {
 ### 3.1 Impact of CSS
 
 - CSS is a render-blocking resource by default, meaning the browser will not render content until the CSSOM is fully constructed.
-- To avoid delays, consider using techniques like **inlining CSS** for critical styles.
+- To avoid delays, consider using techniques like **`inlining CSS`** for critical styles.
 
 ### 3.2 Impact of JavaScript
 
@@ -106,12 +106,12 @@ p {
 
 ### 4.2 Reducing the Critical Path Length
 
-- Minimize the number of round trips to the server by reducing the file sizes and the number of requests.
-- Use techniques like bundling and minification.
+- Minimize the number of round trips to the `server by reducing the file sizes` and the `number of requests`.
+- Use techniques like `bundling` and `minification`.
 
 ### 4.3 Prioritizing Critical Resources
 
-- Ensure that the resources essential for rendering the page are downloaded first by optimizing resource prioritization and using HTTP/2 features.
+- Ensure that the resources essential for rendering the page are downloaded first by optimizing resource `prioritization` and using `HTTP/2 features`.
 
 ## 5. Code Examples for Optimization Techniques
 
