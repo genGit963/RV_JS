@@ -1,6 +1,6 @@
 # Callbacks
 
-Callbacks are a fundamental concept for handling asynchronous operations. A callback is a function passed into another function as an argument that is executed after a certain event or operation is completed.
+A `callback` is a **_function passed into another function as an argument that is executed after a certain event or operation is completed_**. Callbacks are a fundamental concept for _<u>handling asynchronous operations</u>_.
 
 This allows you to perform actions once an asynchronous operation finishes, such as reading a file, making a database query, or sending an HTTP request.
 
